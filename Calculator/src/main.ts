@@ -108,6 +108,8 @@ clearButton.addEventListener("click", () => {
   // Clear
   buffer = null;
   currentInput = null;
+  operator = null;
+  decimal = "";
   render();
 });
 divideButton.addEventListener("click", () => selectOperator("%"));
