@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="output">
+        <p id="top-output"></p>
+        <p id="bottom-output"></p>
+      </div>
+      <div id="buttons-container">
+        <button style="grid-area: clear" id="clear-button">AC</button>
+        <button style="grid-area: divide" id="divide-button" class="operator">
+          %
+        </button>
+        <button style="grid-area: seven" id="seven-button">7</button>
+        <button style="grid-area: eight" id="eight-button">8</button>
+        <button style="grid-area: nine" id="nine-button">9</button>
+        <button
+          style="grid-area: multiply"
+          id="multiply-button"
+          class="operator"
+        >
+          X
+        </button>
+        <button style="grid-area: four" id="four-button">4</button>
+        <button style="grid-area: five" id="five-button">5</button>
+        <button style="grid-area: six" id="six-button">6</button>
+        <button
+          style="grid-area: subtract"
+          id="subtract-button"
+          class="operator"
+        >
+          -
+        </button>
+        <button style="grid-area: one" id="one-button">1</button>
+        <button style="grid-area: two" id="two-button">2</button>
+        <button style="grid-area: three" id="three-button">3</button>
+        <button style="grid-area: add" id="add-button" class="operator">
+          +
+        </button>
+        <button style="grid-area: zero" id="zero-button">0</button>
+        <button style="grid-area: point" id="point-button">.</button>
+        <button style="grid-area: equal" id="equal-button" class="operator">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
